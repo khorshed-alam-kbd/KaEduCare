@@ -24,11 +24,11 @@
     <!-- website header section start -->
     <header class="container">
         <!-- navbar section start -->
-        <section>
+        <section class=" mb-5">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container bg-white rounded fixed-top">
                     <a class="navbar-brand" href="#">
-                        <h2>KaEduCare</h2>
+                        <h2 class="fw-bold text-success">Ka<span class="text-danger">Edu</span>Care</h2>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,30 +38,30 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
-                            </li>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#deals">Deals</a>
                             </li>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#register">Register</a>
                             </li>
                         </ul>
                         <form>
-                            <button class="btn btn-outline-primary p-2" type="submit">Register</button>
+                            <button class="btn btn-outline-success p-2" type="submit">Register</button>
                         </form>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
         </section>
         <!-- navbar section end -->
         <!-- Banner Section start -->
-        <section>
+        <section id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded-3">
                     <div class="carousel-item active position-relative">
@@ -81,7 +81,7 @@
                             <h1 class="fw-bold ">Learn the skills of the future</h1>
                             <p>Accelerate your career with an online digital skills course in everything from marketing
                                 to coding and beyond.</p>
-                            <button type="button" class="btn btn-primary fw-semibold">Get Started</button>
+                            <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item position-relative">
@@ -93,7 +93,7 @@
                             <h1 class="fw-bold">Get Started Digital Learning</h1>
                             <p>Accelerate your career with an online digital skills course in everything from marketing
                                 to coding and beyond.</p>
-                            <button type="button" class="btn btn-primary fw-semibold">Get Started</button>
+                            <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
     <!-- website main contain section start -->
     <main>
         <!-- Course section start  -->
-        <section class="container">
+        <section class="container" id="courses">
             <div class="mt-5 mb-5 text-center">
                 <h1 class="fw-bold">Discover Our Popular <br> Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable
@@ -253,7 +253,7 @@
         <!-- Course section end -->
 
         <!-- Explore Institute section start -->
-        <section class="container">
+        <section class="container" id="deals">
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-sm-5">
@@ -292,7 +292,7 @@
         <!-- Explore Institute section end -->
 
         <!-- Ready to join section start  -->
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="register">
             <div class=" bg-primary text-white rounded p-5 d-md-flex align-items-center justify-content-around">
                 <div>
                     <h1 class="pb-2">Ready to join ?</h1>
@@ -375,9 +375,9 @@
         <!-- Ready to join section end -->
 
         <!-- Student's section start -->
-        <section class="container">
-            <div class="mt-5 mb-5">
-                <h1 class="fw-bold">Meet Our Successfull <br> Students</h1>
+        <section class="container" id="success">
+            <div class="text-center mt-5 mb-5">
+                <h1 class=" fw-bold">Meet Our Successfull <br> Students</h1>
                 <p>Every success story of our students inspires the KaEduCare forward every moment.</p>
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
@@ -419,7 +419,7 @@
                 </div>
             </div>
             <div class="m-5 text-center">
-                <button type="button" class="btn btn-primary btn-lg">View All</button>
+                <button type="button" class="btn btn-primary btn-lg">See More</button>
             </div>
         </section>
         <!-- Feedback section -->
@@ -494,7 +494,7 @@
             <div class="mt-5 mb-5 text-center">
                 <h1 class="fw-bold">Frequently Asked Question</h1>
                 <p>An FAQ page is a key part of a knowledge base because it addresses the
-                    most common questions customers have and is useful to customers at all stages of the customer
+                    most common questions customers have and <br> is useful to customers at all stages of the customer
                     journey.</p>
             </div>
             <div class="accordion" id="accordionExample">
@@ -596,17 +596,17 @@
 
     <!-- website footer section start -->
     <footer>
-        <section class="p-5 bg-dark text-white text-center">
-            <h3>KaEduCare</h3>
+        <section class="p-5 bg-dark text-white text-center" id="about">
+            <h2 class="fw-bold text-success">Ka<span class="text-danger">Edu</span>Care</h2>
             <address>
                 Office #13, Zigatola, Dhanmondi, <br> Dhaka, Bangladesh
             </address>
             <p>Privacy Ploicy | Terms of use</p>
             <div class="d-flex justify-content-center gap-4 ">
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f text-white "></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter text-white "></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in text-white"></i></a>
+                <a href="https://www.tiktok.com/"><i class="fa-brands fa-github text-white"></i></a>
             </div>
 
         </section>
